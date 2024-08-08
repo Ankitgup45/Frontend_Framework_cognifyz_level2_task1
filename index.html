@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards with Bulma and Bootstrap</title>
+    <!-- Bulma CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>    
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title"><b>Bulma Card</b></h1>
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="web.jpg" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Exploring the Future of Web Development</p>
+                            <p class="subtitle is-6">Insights into the Latest Trends and Technologies</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        The web development landscape is rapidly evolving, with new tools and technologies emerging every day. 
+In this post, we explore the latest trends that are shaping the future of web development, from responsive design 
+to modern JavaScript frameworks. Stay ahead of the curve with our in-depth analysis and expert insights.
+
+                        <br>
+                        <time datetime="2021-01-01">Jan 1, 2021</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-4">
+        <h1 class="title"><b>Bootstrap Grid with Cards</b></h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="css.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mastering React.js</h5>
+                        <p> class="card-text">SReact.js has become one of the most popular front-end libraries for building dynamic web applications. 
+                            Learn the basics, dive into advanced topics, and discover how to build powerful user interfaces with ease.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="ui.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Importance of UI/UX Design</h5>
+                        <p class="card-text">Good UI/UX design is crucial for creating applications that are not only functional but also intuitive and 
+                            enjoyable to use. Explore the principles of user-centered design and how they can elevate your projects.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="mo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Building Mobile-First Applications</h5>
+                        <p class="card-text">In today's mobile-first world, it's essential to design applications that work seamlessly on all devices. 
+                            Learn the best practices for mobile-first development and how to ensure your apps are accessible to everyone.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
